@@ -1,7 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Transitive by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
 <html>
-
-<head>
+	<head>
     <meta charset="UTF-8">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -9,18 +13,165 @@
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"  media="screen,projection"/ />
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <title>MemoPad : React Sample Project</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>subin</title>
     <meta name="Description" content="Memo App implemented using React.js / MongoDB / Express.js">
     <meta name="Keywords" content="React.js, velopert, Memopad">
+	</head>
+	<body>
 
-</head>
+		<!-- Header -->
+			<header id="header" class="alt">
+				<div class="logo"><a href="index.html">한솔 유치원</span></a></div>
+				<a href="#menu" class="toggle"><span>Menu</span></a>
+			</header>
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="generic.html">About</a></li>
+					<li><a href="board.html">Memo</a></li>
+          <li><a href="elements.html">Upload</a></li>
+				</ul>
+			</nav>
 
-<body>
-    <div id="root"></div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="/bundle.js"></script>
-</body>
+		<!-- Banner -->
+		<!--
+			To use a video as your background, set data-video to the name of your video without
+			its extension (eg. images/banner). Your video must be available in both .mp4 and .webm
+			formats to work correctly.
+		-->
 
+			<section id="banner" data-video="images/banner">
+				<div class="inner">
+					<h1>한솔 유치원</h1>
+					<p>한솔 유치원에 대한 랜딩 페이지(환영 인사 등등)</p>
+					<a href="#one" class="button special scrolly">자세히 보기</a>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2">
+				<div class="inner">
+					<div>
+						<div class="box">
+							<div class="image fit">
+								<img src="images/pic01.jpg" alt="" />
+							</div>
+
+
+							<div class="content">
+								<header class="align-center">
+									<h2>한솔 유치원</h2>
+									<p>소개 등등</p>
+								</header>
+								<hr />
+								<p> 언제 만들어졌다.</p>
+								<p>현재 몇명이고 등등</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper style3">
+				<div class="inner">
+					<div id="flexgrid">
+						<div>
+							<header>
+								<h3>한솔 유치원 1호</h3>
+							</header>
+							<p>경기도 광주 위치</p>
+							<ul class="actions">
+								<li><a href="https://www.naver.com" class="button alt">홈페이지 보기</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>한솔 유치원 2호</h3>
+							</header>
+							<p>분당 위치</p>
+							<ul class="actions">
+								<li><a href="https://www.naver.com" class="button alt">홈페이지 보기</a></li>
+							</ul>
+						</div>
+						<div>
+							<header>
+								<h3>한솔 유치원 3호</h3>
+							</header>
+							<p>강남구 위치</p>
+							<ul class="actions">
+								<li><a href="https://www.naver.com" class="button alt">홈페이지 보기</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper">
+				<div class="inner">
+					<section>
+						<div class="box">
+							<div class="content">
+								<h2 class="align-center">문의 사항</h2>
+								<hr />
+								<form action="#" method="post">
+									<div class="field half first">
+										<label for="name">이름</label>
+										<input name="이름" id="name" type="text" placeholder="Name">
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input name="email" id="email" type="email" placeholder="Email">
+									</div>
+									<div class="field">
+										<label for="dept">카테고리</label>
+										<div class="select-wrapper">
+											<select name="dept" id="dept">
+												<option value="">- Category -</option>
+												<option value="1">입원</option>
+												<option value="1">유치원 1호점</option>
+												<option value="1">유치원 2호점</option>
+												<option value="1">유치원 3호점</option>
+                        <option value="1">선생님 관련</option>
+                        <option value="1">계정 관련</option>
+											</select>
+										</div>
+									</div>
+									<div class="field">
+										<label for="message">내용</label>
+										<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+									</div>
+									<ul class="actions align-center">
+										<li><input value="문의 사항 제출" class="button special" type="submit"></li>
+									</ul>
+								</form>
+							</div>
+						</div>
+					</section>
+					<div class="copyright">
+						한솔 유치원
+
+            <p>02-1234-1234<br>010-1234-1234<br>
+            kakao talk : hansol1234</p>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+			<script src="/bundle.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
